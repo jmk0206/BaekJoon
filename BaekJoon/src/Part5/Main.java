@@ -86,22 +86,108 @@ public class Main {
 		
 		// 다른 방법 (배열)
 		
-		boolean[] arr = new boolean[42];
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		boolean[] arr = new boolean[42];
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//		for (int i = 0; i < 10; i++) {
+//			arr[Integer.parseInt(br.readLine()) % 42] = true;
+//		}
+//		
+//		int count = 0;
+//		for(boolean value : arr) {
+//			if(value) {
+//				count++;
+//			}
+//		}
+//		System.out.println(count);
+		
+		
+		// 평균 (1546번)
 
-		for (int i = 0; i < 10; i++) {
-			arr[Integer.parseInt(br.readLine()) % 42] = true;
-		}
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		
+//		double arr[] = new double[Integer.parseInt(br.readLine())];
+//		
+//		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+//		
+//		for(int i=0; i<arr.length; i++) {
+//			arr[i] = Double.parseDouble(st.nextToken());
+//		}
+//		
+//		double sum = 0;
+//		Arrays.sort(arr);
+//		
+//		for(int i=0; i<arr.length; i++) {
+//			sum += ( (arr[i] / arr[arr.length-1])*100 );
+//		}
+//		System.out.println( sum/arr.length );
 		
-		int count = 0;
-		for(boolean value : arr) {
-			if(value) {
-				count++;
+		
+		// OX퀴즈
+		
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		
+//		StringBuilder sb = new StringBuilder();
+//		
+//		int N = Integer.parseInt(br.readLine());
+//		String arr[] = new String[N];
+//		
+//		for (int i = 0; i < N; i++) {
+//			arr[i] = br.readLine();
+//		}
+//		
+//		for (int i = 0; i < N; i++) {
+//			int cnt = 0; // 연속횟수
+//			int sum = 0; // 누적 합산
+//			
+//			for (int j = 0; j < arr[i].length(); j++) {
+//				if (arr[i].charAt(j) == 'O') {
+//					cnt++;
+//				} else {
+//					cnt = 0;
+//				}
+//				sum += cnt;
+//			}
+//			
+//			sb.append(sum).append('\n');
+//		}
+//		System.out.println(sb);
+		
+		
+		// 평균은 넘겠지(4344번)
+		
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int[] arr;
+		int N = Integer.parseInt(br.readLine());
+		StringTokenizer st;
+		
+		for(int i=0; i<N; i++) {
+			st = new StringTokenizer(br.readLine(), " "); // 학생 수 및 성적 입력
+			
+			int student = Integer.parseInt(st.nextToken()); // 학생 수
+			arr = new int[student];
+			
+			double sum = 0; // 성적 누계 합 변수
+			
+			// 성적 입력 부분
+			for(int j=0; j<student; j++) {
+				int val = Integer.parseInt(st.nextToken()); // 성적 저상
+				arr[j] = val;
+				sum += val; // 성적 누적 합
 			}
+			
+			double mean = (sum / student);
+			double count = 0; // 평균 넘는 학생 수 변수
+			
+			// 평균 넘는 학생 비율 찾기
+			for(int j=0; j<student; j++) {
+				if(arr[j] > mean) {
+					count++;
+				}
+			}
+			System.out.printf("%.3f%%\n",(count/student)*100);
 		}
-		System.out.println(count);
-		
-		
 		
 	}
 
