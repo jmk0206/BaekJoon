@@ -1,4 +1,4 @@
-package part6;
+package part6.q1;
 
 //정수 N개의 합 (15596번)
 
