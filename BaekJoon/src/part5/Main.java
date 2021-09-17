@@ -1,4 +1,4 @@
-package Part5;
+package part5;
 
 import java.io.BufferedReader;
 import java.io.IOException;

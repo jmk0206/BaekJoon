@@ -1,4 +1,4 @@
-package Part2;
+package part2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		
-		// ¹éÁØ 1330¹ø
+		// ë‘ ìˆ˜ ë¹„êµí•˜ê¸° (1330ë²ˆ)
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		String str = br.readLine();
 //		StringTokenizer st = new StringTokenizer(str, " ");
@@ -28,7 +28,7 @@ public class Main {
 //		System.out.println((A>B) ? ">" :((A<B) ? "<" : "=="));
 		
 		
-		// ¹éÁØ 9498¹ø
+		// ì‹œí—˜ ì„±ì  (9498ë²ˆ)
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		int A = Integer.parseInt(br.readLine());
 //		
@@ -40,7 +40,8 @@ public class Main {
 //		
 //		System.out.println((A>=90) ? "A" : (A>=80) ? "B" : (A>=70) ? "C" : (A>=60) ? "D" : "F");
 		
-		// ¹éÁØ 2753¹ø
+		
+		// ìœ¤ë…„ (2753ë²ˆ)
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		int A = Integer.parseInt(br.readLine());
 //		
@@ -53,7 +54,7 @@ public class Main {
 //		System.out.println((A%4==0)?((A%400==0)?"1":(A%100==0)?"0":"1"):"0");
 		
 		
-		// ¹éÁØ 14681¹ø
+		// ì‚¬ë¶„ë©´ ê³ ë¥´ê¸° (14681ë²ˆ)
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		int a = Integer.parseInt(br.readLine());
 //		int b = Integer.parseInt(br.readLine());
@@ -63,7 +64,7 @@ public class Main {
 //		else if(a<0&&b<0) System.out.println("3");
 //		else System.out.println("4");
 		
-		// ¹éÁØ 2884¹ø
+		// ì•ŒëžŒ ì‹œê³„ (2884ë²ˆ)
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String str = br.readLine();
 		StringTokenizer st = new StringTokenizer(str, " ");

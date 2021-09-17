@@ -1,4 +1,4 @@
-package Part3;
+package part3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		// ±¸±¸´Ü (2739¹ø)
+		// êµ¬êµ¬ë‹¨ (2739ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		int a = Integer.parseInt(br.readLine());
@@ -24,7 +24,7 @@ public class Main {
 //		System.out.println(sb);
 		
 		
-		// A + B - 3 (10950¹ø)
+		// A + B - 3 (10950ë²ˆ)
 
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		 
@@ -42,7 +42,7 @@ public class Main {
 //		System.out.println(sb);
 		
 		
-		// ÇÕ (8393¹ø)
+		// í•© (8393ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		 
@@ -55,7 +55,7 @@ public class Main {
 //		System.out.println(s);
 
 
-		// ºü¸¥ A + B (15552¹ø)
+		// ë¹ ë¥¸ A + B (15552ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		int N = Integer.parseInt(br.readLine());
@@ -72,7 +72,7 @@ public class Main {
 //		System.out.print(sb);
 		
 		
-		// N Âï±â (2741¹ø)
+		// N ì°ê¸° (2741ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		
@@ -86,7 +86,7 @@ public class Main {
 //		}	
 		
 		
-		// ±âÂï N (2742¹ø)
+		// ê¸°ì° N (2742ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		
@@ -100,7 +100,7 @@ public class Main {
 //		}
 
 		
-		// A + B - 7 (11021¹ø)
+		// A + B - 7 (11021ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		
@@ -116,7 +116,7 @@ public class Main {
 //		br.close();
 
 
-		// A + B - 8 (11022¹ø)
+		// A + B - 8 (11022ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		
@@ -138,7 +138,7 @@ public class Main {
 //		System.out.println(sb);
 		
 		
-		// º° Âï±â - 1 (2438¹ø)
+		// ë³„ ì°ê¸° - 1 (2438ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		int N = Integer.parseInt(br.readLine());
@@ -152,7 +152,7 @@ public class Main {
 //		}
 		
 		
-		// º° Âï±â - 2 (2439¹ø)
+		// ë³„ ì°ê¸° - 2 (2439ë²ˆ)
 		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		int N = Integer.parseInt(br.readLine());
@@ -169,7 +169,7 @@ public class Main {
 //		}
 		
 		
-		// Xº¸´Ù ÀÛÀº ¼ö (10871¹ø)
+		// Xë³´ë‹¤ ì‘ì€ ìˆ˜ (10871ë²ˆ)
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");

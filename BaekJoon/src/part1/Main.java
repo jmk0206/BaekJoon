@@ -1,4 +1,4 @@
-package Part1;
+package part1;
 
 import java.util.Scanner;
 
@@ -6,60 +6,62 @@ public class Main {
 	
 	public static void main(String[] args) {
 
-		// ¹®Á¦¹øÈ£ 2557 (Hello World)
+		// 2557 (Hello World)
 		System.out.println("Hello World!");
 
-		// ¹®Á¦¹øÈ£ 10718 | We love kriii
-		System.out.println("°­ÇÑÄ£±¸ ´ëÇÑÀ°±º");
-		System.out.println("°­ÇÑÄ£±¸ ´ëÇÑÀ°±º");
+		// 10718 | We love kriii
+		System.out.println("ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°");
+		System.out.println("ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°");
 		
-		// ¹®Á¦¹øÈ£ 10171 | °í¾çÀÌ
+		// 10171 | ê³ ì–‘ì´
 		System.out.println("\\    /\\");
 		System.out.println(" )  ( ')");
 		System.out.println("(  /  )");
 		System.out.println(" \\(__)|");
 		
-		// ¹®Á¦¹øÈ£ 10172 | °³
+		// 10172 | ê°œ
 		System.out.println("|\\_/|");
 		System.out.println("|q p|   /}");
 		System.out.println("( 0 )\"\"\"\\");
 		System.out.println("|\"^\"`    |");
 		System.out.println("||_/=\\\\__|");
 		
-		// ¹®Á¦¹øÈ£ 1000 | A+B
-		// µÎ Á¤¼ö A¿Í B¸¦ ÀÔ·Â¹ŞÀº ´ÙÀ½, A+B¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+		
+		// 1000 | A+B
+		
 		int a, b;
 		Scanner sc = new Scanner(System.in); // import Scanner
 		a = sc.nextInt();
 		b = sc.nextInt();
 		System.out.println(a+b);
 		
-		// ¹®Á¦¹øÈ£ 1001 | A-B
-		// Ã¹Â° ÁÙ¿¡ A¿Í B°¡ ÁÖ¾îÁø´Ù. (0 < A, B < 10)
+		// 1001 | A-B
+		
 		int A, B;
 	//	Scanner sc = new Scanner(System.in);
 		A = sc.nextInt();
 		B = sc.nextInt();
 		System.out.println(A-B);
 		
-		// ¹®Á¦¹øÈ£ 10998 | AxB
-		//µÎ Á¤¼ö A¿Í B¸¦ ÀÔ·Â¹ŞÀº ´ÙÀ½, A¡¿B¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+		
+		// 10998 | AxB
+		
 		//int A, B;
 		//Scanner sc = new Scanner(System.in);
 		A = sc.nextInt();
 		B = sc.nextInt();
 		System.out.println(A*B);
 		
-		// ¹®Á¦¹øÈ£ 1008 | A/B
-		// µÎ Á¤¼ö A¿Í B¸¦ ÀÔ·Â¹ŞÀº ´ÙÀ½, A/B¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+		// 1008 | A/B
+
 	//	double A, B;
 	//	Scanner sc = new Scanner(System.in);
 	//	A = sc.nextDouble();
 	//	B = sc.nextDouble();
 		System.out.println(A/B);
 		
-		// ¹®Á¦¹øÈ£ 10869 | »çÄ¢¿¬»ê
-		// µÎ ÀÚ¿¬¼ö A¿Í B°¡ ÁÖ¾îÁø´Ù. ÀÌ¶§, A+B, A-B, A*B, A/B(¸ò), A%B(³ª¸ÓÁö)¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À. 
+		// 10869 | ì‚¬ì¹™ì—°ì‚°
+		
 //		int A, B;
 //		Scanner sc = new Scanner(System.in);
 //		A = sc.nextInt();
@@ -71,7 +73,7 @@ public class Main {
 		System.out.println(A%B);
 		
 		
-		// ¹®Á¦¹øÈ£ 10430 | ³ª¸ÓÁö
+		// 10430 | ë‚˜ë¨¸ì§€
 		Scanner in = new Scanner(System.in);
 		
 	//	int A = in.nextInt();
@@ -85,7 +87,7 @@ public class Main {
 		System.out.println((A*B)%C);
 		System.out.println((A%C * B%C)%C);
 		
-		// ¹®Á¦¹øÈ£ 2588 | °ö¼À
+		// 2588 | ê³±ì…ˆ
 		/*
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
